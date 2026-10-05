@@ -1,0 +1,14 @@
+{
+  "model": "LSTM",
+  "lookback": 96,
+  "horizon": 48,
+  "num_features": 33,
+  "MAE": 7903.7451171875,
+  "RMSE": 9791.4951171875,
+  "MAPE": 4.581392765045166,
+  "R2": 0.1608107089996338,
+  "MASE": 1.782084369061443,
+  "seasonal_naive_scale": 4435.112755828786,
+  "epochs_completed": 15,
+  "training_time_seconds": 1074.1362035274506
+}

@@ -1,0 +1,19 @@
+{
+  "model": "LSTM",
+  "target": "NLDC_DEMAND",
+  "lookback": 96,
+  "horizon": 48,
+  "sampling_interval": "15 minutes",
+  "num_features": 33,
+  "batch_size": 64,
+  "max_epochs": 50,
+  "early_stopping_patience": 5,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "MSE",
+  "metrics": [
+    "MAE"
+  ],
+  "season": 96,
+  "seed": 42
+}
